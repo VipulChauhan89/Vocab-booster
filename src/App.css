@@ -1,0 +1,21 @@
+@keyframes sin-wave {
+  0% 
+  {
+    transform: translateY(0);
+  }
+  25% 
+  {
+    transform: translateY(-10px);
+  }
+  50% 
+  {
+    transform: translateY(0);
+  }
+}
+  
+.animate-sin-wave {
+  display: inline-block;
+  animation: sin-wave 1s infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
